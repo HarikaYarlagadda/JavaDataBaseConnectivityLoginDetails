@@ -6,7 +6,7 @@ public class Demojdbc {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		String url="jdbc:mysql://localhost:3306/logindata";
 		String uname="root";
-		String pass="RootPassword";
+		String pass="Give your root password here";
 		String query = "select * from userdetails1";
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection con = DriverManager.getConnection(url,uname,pass);
